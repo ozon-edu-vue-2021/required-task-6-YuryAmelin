@@ -63,6 +63,7 @@ export default {
   .table {
     border-spacing: 0;
     margin: 8px;
+    width: 100%;
   }
 
 
