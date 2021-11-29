@@ -1,0 +1,28 @@
+<template>
+  <div id="app">
+    <PagingWrapper/>
+  </div>
+</template>
+
+<script>
+
+import PagingWrapper from "@/components/with-paging";
+export default {
+  name: 'App',
+  components: {
+    PagingWrapper,
+  }
+};
+</script>
+
+<style>
+  #app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+  }
+
+</style>
